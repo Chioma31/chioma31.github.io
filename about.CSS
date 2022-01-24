@@ -1,0 +1,19 @@
+body{
+	background-color: #817F9F;
+	font-family: block;
+	margin: 3px;
+
+}
+h1{
+	color: #120CA2;
+}
+p{
+	text-decoration: bold;
+	font-size: 20px;
+}
+i{
+	width: 20px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}

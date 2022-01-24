@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	font-family: Arial;
+	background-color: #072F7D;
+}
+
+
+.Nav{
+	overflow: hidden;
+	background-color: black;
+}
+
+.Nav p{
+	float: left;
+	color: #ECEDEE;
+	font-family: sans-serif;
+	font-style: block;
+	font-size: 18px;
+}
+.Nav a{
+	float: right;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 16px;
+}
+.Nav a:hover{
+	background-color: grey; 
+	color: black;
+}
+.nav a.active{
+	background-color: #A599A5; 
+	color: white;
+}
+.image{
+	width: 1400px;
+    height: 450px;
+    filter: blur(0.5px);
+}
+.bg-text h1 {
+  color: white;
+  font-weight: bold;
+  font-style: ;
+  font-size: 50px;
+  font-family: cursive;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.btn{
+	position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #072668;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: black;
+}
+.text{
+	color: white;
+	text-align: center;
+	text-decoration: underline; 
+}
+.Card{
+	display: flex;
+	display: inline-block;
+	margin: 30%;
+	grid-template-columns: auto;
+	grid-gap: 2px;
+	background-color: white;
+	padding: 170px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 45px;
+	border-radius: 20px 20px;
+	width: 70%
+}
+.Container{
+	display: grid;
+	grid-gap: 30px;
+	
+	grid-template-columns: 25% 25% 25%;
+}
+img{
+	width: 330px;
+	height: 330px;
+	justify-content: top;
+}
+.footer{
+	background-color: black;
+	padding: 64px;
+	text-align: center;
+}
+i{
+	width: 20px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.Aut{
+	text-align: center;
+	color: white;
+
+
+
+
+
+
+
+	
+
+
+
+
+

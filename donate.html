@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>donate</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="stydonate.CSS">
+</head>
+<body>
+   <div class="wrapper">
+	    <h1>Payment Form</h1>
+        <form method="POST">
+  	      <h4>Account</h4>
+  	     <div class="input-g">
+  	      	 <div class="input-b">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div><br>
+                <div class="input-b">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+               </div>
+               <div class="input-b">
+                   <label for="Email">Email</label>
+                    <input type="Email" id="Email" name="Email" placeholder="Your Email..">
+                </div>
+            </div>
+            <div class="input-g">
+            	<div class="input-b">
+                   <label for="Payment"><h4>Payment Details</h4></label>
+                   <input type="radio" id="Payment" name="Credit Card">
+                   <label for="Payment"> <span> <i class="fa fa-cc-visa"></i>Credit Card</span></label>
+		           <input type="radio" id="Payment" name="Paypal">
+		           <label for="Payment"> <span> <i class="fa fa-cc-paypal"></i>Paypal</span></label>
+		           <label for="card number" class="input-box"></label>
+		           <input type="tel" name="Card" placeholder="Card Number">
+		           <input type="tel" name="Card" placeholder="CVV">
+		           <input type="date" name="date" placeholder="Date" class="dob">
+		        </div>
+		    </div>
+		    <div class="input-g">
+		        <input type="Submit" value="PAY NOW">
+                <input type="reset">
+            </div>
+   </form>
+</div>
+
+</body>
+</html>
